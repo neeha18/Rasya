@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box; 
+}
+
+ul,li {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    width: 1920px;
+    background-color: white;
+    margin: 0px;
+   
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #252525;
+    
+    font-size: 16px;
+    color: white;
+    font-family: 'Spartan';
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px 15px 50px;
+}
+
+a:hover {
+    color: #eba630; 
+    background-color: #5f5f5f;
+   }
+
+
+.navigation .active {
+    color: black; 
+    background-color: #eba630;
+}
+
+
+#banner {
+    background-color: bisque;
+    height: 880px;
+    width: 1920px;
+}
+
+h1 {
+    font-family:'Satisfy', cursive;
+    font-size: 70px;
+    color: black;
+    position: absolute;
+    left: 76%;
+    top: 64%;
+    text-align: center;  
+} 
+
+h4 {
+    font-size: 22px;
+    color: #AEAEAE; 
+    padding: 6px 50px 6px 50px;
+    position: absolute;
+    left: 90%;
+    top:15.4%;
+}
+
+nav ul {
+    max-width: 1920px;
+   
+    display: flex;
+    padding-left: 591px; 
+}
+
+nav li {
+    list-style-type: none;
+    display: block;
+    
+}
+
+img { 
+    width: 100%;
+}
+
+.logo {
+    width:12%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+/*-----------navigation-------------*/
+
+
+.content1 {
+    padding: 80px 120px 65px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1920px;
+}
+
+#headingbox {
+    text-align: left;
+    margin: 0px 60px 50px 0px;
+    font-family: 'Spartan';
+    font-size: 25px;
+    width: 810px;
+}
+
+#content1p {
+    font-family:  'Arimo';
+    font-size: 17px;
+    padding: 0px ;
+    line-height: 25px;
+    text-align: left;
+    width: 760px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#cont1img1 {
+    width: 810px;
+    height: 730px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+/*---------footer---------*/
+
+.footer1 {
+    max-width: 1920px;
+    height: 350px; 
+    background-color: #252525;
+}
+
+.footer1content {
+    display: flex;
+    flex-wrap:wrap; 
+    padding: 50px 120px 35px 120px;
+}
+
+#footer1signup{
+    width: 810px;
+    height: 50px;
+    margin-right: 60px;
+}
+
+.footer1leftsignup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer1left {
+    margin: 0px 60px 0px 0px;
+     width: 810px;
+    text-align: center; 
+    font-size:22px;
+    padding-left: 0;
+    font-family: 'Spartan';
+    color: #eba630;
+    padding: 25px 25px 20px 25px;
+}
+
+#footer1lefttext1 {
+    width: 810px;
+    height: 75px;
+    font-size: 15px;
+    font-family: 'Spartan';
+    color: white;
+    padding: 0px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+#footer1lefttext2 {
+    font-size: 18px;
+    font-family: 'Spartan';
+    background: white;
+    width: 617px;
+    padding: 21px 18px 19px 18px;
+    height: 60px;
+    color: #858585 ;
+    border: 2px solid #c9c9c9;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#footer1lefttext3 {
+    font-size: 18px;
+    font-family: 'Spartan';
+    color: #252525;
+    padding: 23px 18px 17px 18px;
+    height: 60px;
+    background: #E9A432;
+    width: 188px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#footer1socialmedia {
+    width: 810px;
+}
+
+#footer1right {
+    margin: 0px 0px 16px 0px;
+     width: 810px;
+    text-align: center; 
+    font-size:22px;
+    font-family: 'Spartan';
+     color: #eba630;
+    padding: 25px 25px 20px 25px;
+}
+
+.footer1SMIcons {
+    width: 810px
+    padding-left: 0px;
+    padding-right: 0px;  
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-gap: 50px; 
+    margin-left: 170px;
+}
+
+/*-----------------------*/
+
+.footer2 {
+    height: 85px;
+    background-color: #252525;
+   
+}
+
+.line {
+    margin: 0 auto;
+    color:white;
+    width: 1680px;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+#footer2Text1 {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin: 2px 120px;
+    font-family: 'Arimo';
+    line-height: 20px;
+}
+
+#footer2Text2 {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin: 1px 120px;
+    font-family: 'Arimo';
+    line-height: 20px;
+}
